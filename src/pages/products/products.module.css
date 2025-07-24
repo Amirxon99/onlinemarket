@@ -1,0 +1,25 @@
+.main{
+    padding: 50px 0;
+    background-color: rgb(24, 8, 145);
+}
+.main select,input{
+    padding: 8px 12px;
+    width: 350px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-right: 20px;
+    outline: none;
+}
+
+.products_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+}
+.loader{
+    margin: 10px auto;
+}
